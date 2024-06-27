@@ -73,6 +73,7 @@ font-weight: 700;
 line-height: 16.8px;
 text-align: left;
 color: rgba(255, 255, 255, 1);
+white-space: nowrap;
 }
 .p5{
 color: rgba(255, 255, 255, 1);
@@ -80,6 +81,7 @@ width: 49.22px;
 height: 16.8px;
 position: absolute;
 left: 476px;
+white-space: nowrap;
 }
 .p5-1{
     font-family: Helvetica Neue;
@@ -121,3 +123,137 @@ left: 120px;
 color: rgba(199, 224, 244, 1);
 white-space: nowrap;
 }
+.p8{
+    width: 49.22px;
+    height: 16.8px;
+    position: absolute;
+    top:26px;
+    left: 690px;
+    font-family: Helvetica Neue;
+    font-size: 13.89px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    }
+    .p7{
+        color: rgba(255, 255, 255, 1);
+        width: 49.22px;
+        height: 16.8px;
+        position: absolute;
+        left: 690px;
+        white-space: nowrap;
+        }
+        .p7-1{
+            font-family: Helvetica Neue;
+            font-size: 13.67px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:54.79px;
+        }
+        .p7-2{
+            font-family: Helvetica Neue;
+            font-size: 12.69px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:80.79px;
+        }
+        .p7-3{
+            font-family: Helvetica Neue;
+            font-size: 13.89px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:106.79px;}
+.p9{
+    width: 49.22px;
+    height: 16.8px;
+    position: absolute;
+    top:26px;
+    left: 922.95px;
+    font-family: Helvetica Neue;
+    font-size: 13.89px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    }
+    .p10{
+        color: rgba(255, 255, 255, 1);
+        width: 49.22px;
+        height: 16.8px;
+        position: absolute;
+        left: 922.95px;
+        white-space: nowrap;
+        }
+        .p10-1{
+            font-family: Helvetica Neue;
+            font-size: 13.67px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:54.79px;
+        }
+        .p10-2{
+            font-family: Helvetica Neue;
+            font-size: 12.69px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:80.79px;
+        }
+        .p10-3{
+            font-family: Helvetica Neue;
+            font-size: 13.89px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:106.79px;}
+.p11{
+    width: 49.22px;
+    height: 16.8px;
+    position: absolute;
+    top:26px;
+    left: 1190.56px;
+    font-family: Helvetica Neue;
+    font-size: 13.89px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    }
+    .p12{
+        color: rgba(255, 255, 255, 1);
+        width: 49.22px;
+        height: 16.8px;
+        position: absolute;
+        left: 1190.56px;
+        white-space: nowrap;
+        }
+        .p12-1{
+            font-family: Helvetica Neue;
+            font-size: 13.67px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:54.79px;
+        }
+        .p12-2{
+            font-family: Helvetica Neue;
+            font-size: 12.69px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:80.79px;
+        }
+        .p12-3{
+            font-family: Helvetica Neue;
+            font-size: 13.89px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            top:106.79px;}
