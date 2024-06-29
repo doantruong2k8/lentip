@@ -8,6 +8,7 @@
 .box1 {
     border: 2px dotted #ffffff;
     text-align: center;
+    padding:20px;
 }
 img {
     max-width: 180px;
@@ -22,6 +23,8 @@ ul {
 }
 li {
     list-style: none;
+    padding:5px;
+    line-height: 15px;
 }
 * {
     margin: 0;
@@ -44,7 +47,7 @@ h4 {
 }
 .cuoi {
     font-family: Roboto;
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 400;
     color: #c7e0f4;
     padding: 5px 120px;
@@ -55,12 +58,10 @@ ul {
 a:hover {
     text-decoration: underline;
 }
-.lucky {
-    font-weight: 900;
-}
+
 a:first-child{
     font-weight: 900;
 }
-    a:not(first-child){
-        font-weight: 100;
-    }
+a:not(first-child){
+    font-weight: 100;
+}
