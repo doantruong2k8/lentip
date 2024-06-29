@@ -58,9 +58,9 @@ a:hover {
 .lucky {
     font-weight: 900;
 }
-li:first-child{
+a:first-child{
     font-weight: 900;
 }
     a:not(first-child){
-        font-weight: 100px;
+        font-weight: 100;
     }
