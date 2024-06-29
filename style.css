@@ -59,9 +59,9 @@ a:hover {
     text-decoration: underline;
 }
 
-a:first-child{
+li:first-child{
     font-weight: 900;
 }
-a:not(first-child){
+li:not(first-child){
     font-weight: 100;
 }
