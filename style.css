@@ -1,259 +1,66 @@
-
-.demo1{
-    background-color:  #005A9E;
-    height: 310px;
-    width: 1440px;
-    position:relative;
-    top:0;
-    left:0px;
+.boc {
+    background: #005a9e;
 }
-.box1{
-    width: 280px;
-    height: 200px;
-    position: relative;
-    top:26px;
-    left:120px;
-    border: 2px dotted #FFFFFF;
-    background-color:  #005A9E;
-    border-radius: 6px 0px 0px 0px;
+.box0 {
+    display: flex;
+    padding: 26px 120px 40px;
 }
-.img{
-    width: 185px;
-    height: 62px;
-    background-image: url(./img/image.png);
-    background-size: contain;
-    background-color: #005A9E;
-    position: relative;
-    top:21px;
-    left:45px;
+.box1 {
+    border: 2px dotted #ffffff;
+    text-align: center;
 }
-.p1{
-    width: 151px;
-    height: 14px;
-    position: relative;
-    top:2px;
-    left:67px;
+img {
+    max-width: 180px;
+}
+.box2 {
+    display: flex;
+    white-space: nowrap;
+    padding: 0px;
+}
+ul {
+    flex: 1;
+}
+li {
+    list-style: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+#p1 {
+    font-size: 8px;
+    font-weight: 400;
+}  
+h4 {
+    line-height: 21.09px;
+}
+.box00 {
+    background: #004578;
+}
+.cuoi {
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 400;
-    color:rgba(253, 253, 253, 1);
-    line-height:30px;
+    color: #c7e0f4;
+    padding: 5px 120px;
 }
-.p2{
-width: 181px;
-height: 21px;
-position: relative;
-left: 49px;
-font-family: Roboto;
-font-size: 18px;
-font-weight: 700;
-line-height: 21.09px;
-text-align: left;
-color:rgba(255, 255, 255, 1);
+ul {
+    padding-left: 100px;
 }
-.p3{
-width: 245.35px;
-height: 24px;
-position: relative;
-left: 18px;
-color: rgba(255, 255, 255, 1);
-display:flex;
-justify-content: space-around;
-font-size:27px;
+a:hover {
+    text-decoration: underline;
 }
-.p4{
-width: 49.22px;
-height: 16.8px;
-position: absolute;
-top:26px;
-left: 476px;
-font-family: Helvetica Neue;
-font-size: 13.89px;
-font-weight: 700;
-line-height: 16.8px;
-text-align: left;
-color: rgba(255, 255, 255, 1);
-white-space: nowrap;
+.lucky {
+    font-weight: 900;
 }
-.p5{
-color: rgba(255, 255, 255, 1);
-width: 49.22px;
-height: 16.8px;
-position: absolute;
-left: 476px;
-white-space: nowrap;
+li:first-child{
+    font-weight: 900;
 }
-.p5-1{
-    font-family: Helvetica Neue;
-    font-size: 13.67px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    top:54.79px;
-}
-.p5-2{
-    font-family: Helvetica Neue;
-    font-size: 12.69px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    top:80.79px;
-}
-.p5-3{
-    font-family: Helvetica Neue;
-    font-size: 13.89px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
-    white-space:nowrap;
-    top:106.79px;
-}
-.div{
-width: 1440px;
-height: 43px;
-position: absolute;
-top: 265px;
-background: rgba(0, 69, 120, 1);
-}
-.p6{
- width: 473px;
-height: 16px;
-position:relative;
-left: 120px;
-color: rgba(199, 224, 244, 1);
-white-space: nowrap;
-}
-.p8{
-    width: 49.22px;
-    height: 16.8px;
-    position: absolute;
-    top:26px;
-    left: 690px;
-    font-family: Helvetica Neue;
-    font-size: 13.89px;
-    font-weight: 700;
-    line-height: 16.8px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
+    a:not(first-child){
+        font-weight: 100px;
     }
-    .p7{
-        color: rgba(255, 255, 255, 1);
-        width: 49.22px;
-        height: 16.8px;
-        position: absolute;
-        left: 690px;
-        white-space: nowrap;
-        }
-        .p7-1{
-            font-family: Helvetica Neue;
-            font-size: 13.67px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:54.79px;
-        }
-        .p7-2{
-            font-family: Helvetica Neue;
-            font-size: 12.69px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:80.79px;
-        }
-        .p7-3{
-            font-family: Helvetica Neue;
-            font-size: 13.89px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:106.79px;}
-.p9{
-    width: 49.22px;
-    height: 16.8px;
-    position: absolute;
-    top:26px;
-    left: 922.95px;
-    font-family: Helvetica Neue;
-    font-size: 13.89px;
-    font-weight: 700;
-    line-height: 16.8px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-    white-space: nowrap;
-    }
-    .p10{
-        color: rgba(255, 255, 255, 1);
-        width: 49.22px;
-        height: 16.8px;
-        position: absolute;
-        left: 922.95px;
-        white-space: nowrap;
-        }
-        .p10-1{
-            font-family: Helvetica Neue;
-            font-size: 13.67px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:54.79px;
-        }
-        .p10-2{
-            font-family: Helvetica Neue;
-            font-size: 12.69px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:80.79px;
-        }
-        .p10-3{
-            font-family: Helvetica Neue;
-            font-size: 13.89px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:106.79px;}
-.p11{
-    width: 49.22px;
-    height: 16.8px;
-    position: absolute;
-    top:26px;
-    left: 1190.56px;
-    font-family: Helvetica Neue;
-    font-size: 13.89px;
-    font-weight: 700;
-    line-height: 16.8px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-    white-space: nowrap;
-    }
-    .p12{
-        color: rgba(255, 255, 255, 1);
-        width: 49.22px;
-        height: 16.8px;
-        position: absolute;
-        left: 1190.56px;
-        white-space: nowrap;
-        }
-        .p12-1{
-            font-family: Helvetica Neue;
-            font-size: 13.67px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:54.79px;
-        }
-        .p12-2{
-            font-family: Helvetica Neue;
-            font-size: 12.69px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:80.79px;
-        }
-        .p12-3{
-            font-family: Helvetica Neue;
-            font-size: 13.89px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            top:106.79px;}
