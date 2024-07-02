@@ -207,6 +207,7 @@ table{
     color: rgba(0, 120, 212, 1);
     padding:5px 20px;
     border-radius: 6px;
+    background: rgba(239, 246, 252, 1);
 }
 .cr9{
     display:flex;
@@ -215,8 +216,6 @@ table{
     justify-content: space-around;
     box-sizing: border-box;
     margin-top:15px;
-    background: rgba(239, 246, 252, 1);
-
 }
 td{
     padding-top:10px;
