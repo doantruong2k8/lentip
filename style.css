@@ -119,6 +119,7 @@ li:not(first-child) {
     display:flex;
     padding:15px 25px;
     box-sizing: border-box;
+    border-radius: 6px;
 }
 .pre1{
     color: #605E5C;
@@ -145,6 +146,7 @@ li:not(first-child) {
     width: 80%;
     margin:5px auto;
     box-sizing: border-box;
+    border-radius: 6px;
 }
 #po1{
 font-size: 20px;
@@ -350,4 +352,7 @@ td{
     top:-4px;
     background-color:red;
     border-radius: 999px;
+}
+.demo4{
+    border-radius: 6px;
 }
